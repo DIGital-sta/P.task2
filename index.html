@@ -3,40 +3,118 @@
 
 <head>
     <meta charset="utf-8">
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link rel="stylesheet" href="style.css">
     <title>Personal WebSite</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght
-@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(background.png) no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .box {
+            width: 350px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            text-align: center;
+            margin: auto;
+            margin-top: 5%;
+            color: white;
+            font-family: 'Century Gothic', sans-serif;
+        }
+
+        .box-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .box h1 {
+            font-size: 30px;
+            letter-spacing: 2px;
+            font-weight: 100;
+            margin-top: 15px;
+        }
+
+        .box h5 {
+            font-size: 16px;
+            letter-spacing: 2px;
+            font-weight: 100;
+            margin: 15px 0;
+        }
+
+        .box p {
+            text-align: justify;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box li {
+            display: inline-block;
+            margin: 6px;
+            list-style: none;
+        }
+
+        .box li a {
+            color: white;
+            text-decoration: none;
+            font-size: 40px;
+            transition: all ease-in-out 250ms;
+        }
+
+        .box li a:hover {
+            color: #b9b9b9;
+        }
+    </style>
 </head>
 
 <body>
     <div class="box">
 
         <h1>Egor SuperCoder</h1>
-        <img src="me too.jpg" width="200">
+
+        
+        <img src="gemini.png" class="box-img">
+
         <h5>Веб-розробник та веб-дизайнер</h5>
+
         <p>
             Я студент, який вивчає веб-технології та цікавиться створенням сайтів. Мені подобається працювати з HTML і
-            C++,
-            розробляти структуру веб-сторінок та покращувати їхній дизайн. Моєю метою є розвиток навичок у веб-розробці
-            та створення
-            сучасних і зручних для користувачів веб-додатків.
+            C++, розробляти структуру веб-сторінок та покращувати їхній дизайн. Моєю метою є розвиток навичок у
+            веб-розробці та створення сучасних і зручних для користувачів веб-додатків.
         </p>
+
         <ul>
             <li>
                 <a href="https://instagram.com" target="_blank">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-instagram"></i>
                 </a>
             </li>
 
             <li>
                 <a href="https://t.me" target="_blank">
-                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                    <i class="fa fa-telegram"></i>
                 </a>
             </li>
         </ul>
+
         <p>TEST STRING</p>
     </div>
 </body>
